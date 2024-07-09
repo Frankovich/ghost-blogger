@@ -1,4 +1,4 @@
-name: ecrivai
+name: ghost-writer
 dependencies:
   - python=3.12
   - pip
