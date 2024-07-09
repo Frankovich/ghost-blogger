@@ -1,32 +1,14 @@
-[![blog-link](https://img.shields.io/badge/ecrivai-blog-blue)](https://ruankie.github.io/ecrivai-blog-hugo/)
-[![auto-publish](https://github.com/ruankie/ecrivai-blog-hugo/actions/workflows/sheduled-publish.yml/badge.svg)](https://github.com/ruankie/ecrivai-blog-hugo/actions/workflows/sheduled-publish.yml)
-[![GitHub stars](https://img.shields.io/github/stars/ruankie/ecrivai)](https://github.com/ruankie/ecrivai/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/ruankie/ecrivai)](https://github.com/ruankie/ecrivai/network)
-[![GitHub contributors](https://img.shields.io/github/contributors/ruankie/ecrivai)](https://github.com/ruankie/ecrivai/graphs/contributors)
-[![GitHub last commit](https://img.shields.io/github/last-commit/ruankie/ecrivai)](https://github.com/ruankie/ecrivai/commits/main)
 
-
-# 🦜🔗✏️EcrivAI
-EcrivAI is a fully automated AI blog writer that uses LangChain and GPT type LLMs for topic selection and content generation. The content is published to [this blog](https://ruankie.github.io/ecrivai-blog-hugo/)
-
-<details closed><summary>Star History</summary>
-    
-<a href="https://star-history.com/#ruankie/ecrivai&Timeline">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ruankie/ecrivai&type=Timeline&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ruankie/ecrivai&type=Timeline" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ruankie/ecrivai&type=Timeline" />
-  </picture>
-</a>
-
-</details>
+# 🦜🔗✏️LangChain Ghost Blogger
+EcrivAI is a fully automated AI blog writer that uses LangChain and GPT type LLMs for topic selection and content generation. Forked from original maintainer in order to take advantage of stronger LLMs which have been released.
 
 ## Usage
 ### Prerequisites
 1. 🐍 You will need a working install of [`conda`](https://www.anaconda.com/download#downloads).
-2. 🔑 You will need an API key from OpenAI or Google. You can create one for free here:
+2. 🔑 You will need an API key from OpenAI, Google, or Claude. You can create one for free here, but usage incurs costs:
     - [OpenIA](https://platform.openai.com/account/api-keys) - to use models like GPT4
     - [Google](https://ai.google.dev/) - to use models like Gemini
+    - [Claude](https://www.anthropic.com/api) - Claude models
 
 ### Dev Environment Setup
 1. Set up your API keys in a file called `.env` (see `.env.example` for an example)
